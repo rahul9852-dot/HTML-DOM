@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h2>My first Page.
+        </h2>
+        <p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML="Hello World";
+        </script>
+    </body>
+</html> -->
+
+
+
+<!-- Finding HTML Elements by Id -->
+
+<html>
+    <body>
+        <h2>
+            Finding HTML Elements by Id.
+        </h2>
+        <p id="intro">Hello world!</p>
+        <p>This example demonstrated the<b>getElementById</b>method.</b></p>
+        <p id="demo"></p>
+
+        <div id="main">
+            <p>The DOM is very useful.</p>
+            <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+            </div>
+
+            <!-- 4th Example -->
+
+            <p>Hello world</p>
+
+            <p class="Intro">The DOM is very useful.</p>
+            <p class="Intro">This example demonstrates the<b>getElemetByClassName</b>method.</p>
+            <p id="demo"></p>
+
+           
+
+        <script>
+
+            // var myElement= document.getElementById("Intro");
+            // document.getElementById("demo").innerHTML="The text from the intro paragraph is "+myElement.innerHTML;
+
+            // var x = document.getElementsByTagName("p");
+            // document.getElementById("demo").innerHTML = 
+            // 'The text in first paragraph (index 0) is: ' + x[0].innerHTML;
+
+            // this example finds the element with id="main", and then find all <p> element inside "main":
+
+            var x=document.getElementById("main");
+            var y=x.getElementsByTagName("p");
+            document.getElementById("demo").innerHTML='The first paragraph (index 0) inside "main" is:'+y[0].innerHTML;
+
+
+
+            var x=document.getElementsByClassName("intro");
+            document.getElementById("demo").innerHTML='The first paragraph (index 0) with class="intro":'+x[0].innerHTML;
+
+
+            // Finding HTML Elements by CSS Selectors
+
+
+
+
+
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #container{
+            width:400px;
+            height:400px;
+            position:relative;
+            background: yellow;
+        }
+        #animate{
+            width:50px;
+            height:50px;
+            position:absolute;
+            background: red;
+        }
+    </style>
+    <body>
+
+        <h1>My First Javascript Animation.</h1>
+
+        <!-- <div id="animation">My animation will go here</div> -->
+    
+
+    <!-- Creating an animation Container. -->
+    <!-- All animation should be relative to a container element. -->
+
+    <div id="container">
+        <div id="animate"></div>
+    </div>
+
+    <p><button onclick="myMove()">Click Me</button></p>
+
+    <script src="./animation.js"></script>
+
+    <!-- Style the Elements.
+    1. The conatiner element should be created with style="position: relative".
+    2. The animation element should be created with style="position:absolute" -->
+
+</body>
+
+
+</html>
