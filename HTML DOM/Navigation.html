@@ -1,0 +1,58 @@
+<!doctype>
+<html>
+    <body>
+
+        <!-- Accesing the element through innerHtml -->
+
+        <h1 id="id101">My First Page</h1>
+        <p id="id102"></p>
+
+        <!-- Accessing the element through nodeValue -->
+
+        <h1 id="id103">My Second Page</h1>
+        <p id="id104"></p>
+
+        <!--Accessing the element through childvalue-->
+
+        <h1 id="id105">My Third page</h1>
+        <p id="id106"></p>
+<!-- 
+        <script>
+            document.getElementById("id02").innerHTML = document.getElementById("id01").childNodes[0].nodeValue;
+        </script> -->
+
+        <p>Hello World!</p>
+
+        <div>
+            <p>The DOM is very useful.</p>
+            <p>This example demonstrates the<b>document.body</b>property.</p>
+        </div>
+
+        <script>alert(document.body.innerHTML);</script>
+
+        <p>Hello World!</p>
+
+        <div>
+            <p>The DOM is very useful!.</p>
+            <p>This example demonstrates the<b>document.documentElement<b>property.</b></p>
+        </div>
+
+        <script>alert(document.documentElement.innerHTML);</script>
+
+
+        <h1 id="id107">My First Page</h1>
+        <p id="id108"></p>
+
+        <script>
+            document.getElementById("id08").innerHTML = document.getElementById("id07").nodeName;
+        </script>
+
+        <h1 id="id109">My Fourth Page</h1>
+        <p id="id110"></p>
+
+        <script>
+        document.getElementById("id09").innerHTML = document.getElementById("id110").nodeType;
+        </script>
+        <script src="Navigation.js"></script>
+    </body>
+</html>
